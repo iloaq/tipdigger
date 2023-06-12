@@ -1,0 +1,40 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 2rem;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  border-radius: 0.5rem;
+  width: 100%;
+  transition: background-color 0.2s ease-in;
+  font-size: 1.125rem;
+  font-weight: 600;
+  &:focus {
+    outline: 1px solid #ababab;
+  }
+  &:disabled {
+    background-color: #3183ffc2;
+  }
+  &.dark {
+    color: #ffffff;
+  }
+}
+
+.primary {
+  background-color: #3385FF;
+  color: #fff;
+  &:hover {
+    background-color: #0065fd;
+  }
+}
+
+.ghost {
+  color: #333333;
+  background-color: transparent;
+  &.dark {
+    color: #ffffff;
+    background-color: transparent;
+  }
+}
+

@@ -1,0 +1,48 @@
+
+.title {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+}
+.filter {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 1rem 0 1.5rem 0;
+}
+.filter_item {
+  flex: 1 1 auto;
+  margin-right: 0.6rem;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.period_box {
+  margin-bottom: 2rem;
+}
+.period_title {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.875rem;
+  color: #828282;
+  margin-bottom: 1rem;
+}
+.dark {
+  color: #fff;
+}
+
+.dark .title {
+  color: #fff;
+}
+
+.dark .filter_item {
+  color: #fff;
+
+}
+
+
+.dark .period_title {
+  color: #999;
+}

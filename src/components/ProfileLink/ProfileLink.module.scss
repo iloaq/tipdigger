@@ -1,0 +1,19 @@
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333333;
+  font-weight: 500;
+  line-height: 1.25rem;
+  margin-bottom: 1.6rem;
+  &:focus-visible + .label {
+    outline: 1px solid #ababab;
+  }
+  span {
+    flex: 1 1 auto;
+    margin: 0 1rem;
+  }
+  &.dark{
+    color: #ffffff;
+  }
+}

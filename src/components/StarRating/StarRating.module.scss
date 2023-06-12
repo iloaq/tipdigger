@@ -1,0 +1,20 @@
+.rating {
+  border: 1px solid #c7d5e4;
+  border-radius: 8px;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  margin: 0 0.5rem;
+
+  @media (min-width: 370px) {
+    margin: 0 0.9rem;
+  }
+}
+
+.checked {
+  fill: #f2994a;
+}

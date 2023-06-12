@@ -1,0 +1,90 @@
+/* PaymentForm.module.scss */
+
+.body_top {
+  display: flex;
+  align-items: center;
+  span {
+    margin-left: 1rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+}
+
+.title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.75rem;
+  text-align: center;
+  margin: 1.5rem 0 1.25rem 0;
+}
+
+.subtitle {
+  font-weight: 500;
+  line-height: 1.25rem;
+  text-align: center;
+  margin-bottom: 0.375rem;
+}
+
+.rating {
+  margin-bottom: 1.375rem;
+}
+
+.methods {
+  display: flex;
+  align-items: center;
+}
+
+.method_btn {
+  box-shadow: 0px 1px 13px 0px #00000014;
+  box-shadow: 0px 2px 5px 0px #0000001f;
+  border: 1px solid #333333;
+  height: 3rem;
+  margin-right: 0.5rem;
+  &:last-child {
+    margin-right: 0;
+  }
+  path{
+    fill: #333333;
+  };
+}
+
+.messageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.body_bottom {
+  margin-top: 1.125rem;
+  text-align: center;
+  span {
+    display: block;
+    font-size: 0.875rem;
+    color: #828282;
+    line-height: 1.75rem;
+  }
+  img {
+    max-width: 100%;
+  }
+}
+
+.dark {
+  .body_top span,
+  .rating{
+    background-color: #ffffff25;
+  }
+  .method_btn {
+    background-color: #ffffff25;
+    path{
+      fill:#fff;
+    };
+  }
+  .body_bottom span {
+    color: #828282;
+  }
+  .messageLabel{
+    background-color: #243235;
+  }
+}

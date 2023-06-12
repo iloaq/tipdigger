@@ -1,0 +1,41 @@
+.wrapper {
+  position: relative;
+}
+.avatar_box {
+  object-fit: cover;
+  border-radius: 50%;
+  overflow: hidden;
+  img {
+    max-width: 100%;
+  }
+}
+.small {
+  width: 3rem;
+  height: 3rem;
+}
+.large {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.edit_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -7px;
+  right: -16px;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid #bdbdbd;
+  z-index: 100;
+  background-color: white;
+  &:focus {
+    outline: 1px solid #bdbdbd;
+  }
+  &.dark{
+    background-color: #243235;
+    border: 1px solid #4F4F4F;
+  }
+}

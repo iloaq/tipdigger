@@ -1,0 +1,48 @@
+.profile_head {
+  border-radius: 8px;
+  background-color: #f6f6f6;
+  padding: 0.75rem;
+  display: flex;
+  &.dark{
+    background-color: #243235;
+  }
+}
+.name {
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  margin-left: 0.75rem;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  flex: 1 1 auto;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  a {
+    padding: 0.25rem;
+    margin-left: 1rem;
+  }
+}
+
+.info {
+  margin: 1.5rem -1rem;
+  padding: 0rem 1rem;
+  border-bottom: 1px solid #e0e0e0;
+  &.dark{
+    border-bottom: 1px solid #243235;
+    path{
+      stroke: #FFFFFF;
+    }
+  }
+}
+
+.exit {
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+  background-color: transparent;
+}

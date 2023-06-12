@@ -1,0 +1,107 @@
+.footer {
+  // Стили для светлой темы
+  height: 5rem;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(249, 249, 249, 0.94);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+
+  &.dark {
+    // Стили для темной темы
+    background-color: #333;
+    color: #fff;
+  }
+}
+
+.link {
+  // Стили для светлой темы
+  padding-top: 0.5rem;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    .icon {
+      fill: #3385FF;
+    }
+    .link_title {
+      color: #3385FF;
+    }
+  }
+
+  &:focus-visible {
+    outline: 1px solid #a6b1bc;
+  }
+
+  @media (min-width: 479px) {
+    padding-top: 1rem;
+  }
+
+  &.dark {
+    // Стили для темной темы
+    color: #fff;
+
+    &:hover {
+      .icon {
+        fill: #3385FF;
+      }
+      .link_title {
+        color: #3385FF;
+      }
+    }
+  }
+}
+
+.link_title {
+  // Стили для светлой темы
+  line-height: 100%;
+  color: #828282;
+  font-weight: 500;
+  font-size: 0.625rem;
+  transition: all 0.2s ease-in;
+
+  @media (min-width: 479px) {
+    font-size: 1rem;
+  }
+
+  &.dark {
+    // Стили для темной темы
+    color: #fff;
+  }
+}
+
+.active_link {
+  .icon {
+    fill: #3385FF;
+  }
+
+  .link_title {
+    color: #3385FF;
+  }
+
+  &.dark {
+    .icon {
+      fill: #3385FF;
+    }
+    .link_title {
+      color: #3385FF;
+    }
+  }
+}
+
+.icon {
+  // Стили для светлой темы
+  height: 2rem;
+  transition: all 0.2s ease-in;
+
+  &.dark {
+    // Стили для темной темы
+    fill: #fff;
+  }
+}

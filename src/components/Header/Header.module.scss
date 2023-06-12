@@ -1,0 +1,132 @@
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.4rem;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  flex: 1 1 auto;
+}
+
+.title_text {
+  line-height: 1.6rem;
+  font-size: 1.375rem;
+  font-weight: 600;
+  margin: 0 0 0 0.5rem;
+}
+
+.logo_link {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.burger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
+
+.searchicon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 18.5px;
+}
+
+.gray {
+  .title_text {
+    span {
+      color: #2D362F;
+    }
+  }
+  
+  &.dark .title_text { // Добавляем стили для темной темы
+    span {
+      color: #ffffff;
+    }
+  }
+
+  & .searchicon {
+    svg {
+      path {
+        stroke: #2D362F;
+      }
+    }
+  }
+
+  &.dark .searchicon { // Добавляем стили для темной темы
+    svg {
+      path {
+        stroke: #ffffff;
+      }
+    }
+  }
+
+  & .burger {
+    svg {
+      path {
+        stroke: #2D362F;
+      }
+    }
+  }
+
+  &.dark .burger { // Добавляем стили для темной темы
+    svg {
+      path {
+        stroke: #ffffff;
+      }
+    }
+  }
+}
+
+.white {
+  .title_text {
+    span {
+      color: white;
+    }
+  }
+  
+  &.dark .title_text { // Добавляем стили для темной темы
+    span {
+      color: #ffffff;
+    }
+  }
+
+  & .searchicon {
+    svg {
+      path {
+        stroke: #ffffff;
+      }
+    }
+  }
+
+  &.dark .searchicon { // Добавляем стили для темной темы
+    svg {
+      path {
+        stroke: #ffffff;
+      }
+    }
+  }
+
+  & .burger {
+    svg {
+      path {
+        stroke: #ffffff;
+      }
+    }
+  }
+
+  &.dark .burger { // Добавляем стили для темной темы
+    svg {
+      path {
+        stroke: #ffffff;
+      }
+    }
+  }
+}

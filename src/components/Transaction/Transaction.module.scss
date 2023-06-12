@@ -1,0 +1,54 @@
+.transaction {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  border: 1px solid #bdbdbd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.625rem;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.sender_name {
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.04;
+  margin-bottom: 0.3rem;
+}
+
+.time {
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  color: #828282;
+}
+
+.left {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+}
+.right {
+  margin-left: 1rem;
+  font-weight: 500;
+  span {
+    &::after {
+      content: " €";
+    }
+  }
+}
+
+.blue {
+  color: #3385FF;
+}
