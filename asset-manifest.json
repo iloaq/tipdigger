@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tipdigger/static/css/main.5ec26b19.css",
-    "main.js": "/tipdigger/static/js/main.db879a13.js",
+    "main.js": "/tipdigger/static/js/main.40043053.js",
     "static/media/background.svg": "/tipdigger/static/media/background.95eb31c10886134c9c6a.svg",
     "static/media/SFProDisplay-Semibold.woff": "/tipdigger/static/media/SFProDisplay-Semibold.340c3a1a6dddb0b99476.woff",
     "static/media/SFProDisplay-Medium.woff": "/tipdigger/static/media/SFProDisplay-Medium.7274e74c05adf47dbcd9.woff",
@@ -52,10 +52,10 @@
     "static/media/arrow_r.svg": "/tipdigger/static/media/arrow_r.e7a2f6308cf57a24343bbd19150327b9.svg",
     "static/media/minus.svg": "/tipdigger/static/media/minus.7e81f752d67fb6273cdd2af6ce0f43ac.svg",
     "main.5ec26b19.css.map": "/tipdigger/static/css/main.5ec26b19.css.map",
-    "main.db879a13.js.map": "/tipdigger/static/js/main.db879a13.js.map"
+    "main.40043053.js.map": "/tipdigger/static/js/main.40043053.js.map"
   },
   "entrypoints": [
     "static/css/main.5ec26b19.css",
-    "static/js/main.db879a13.js"
+    "static/js/main.40043053.js"
   ]
 }
