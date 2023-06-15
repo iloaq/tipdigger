@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tipdigger/static/css/main.5ec26b19.css",
-    "main.js": "/tipdigger/static/js/main.40043053.js",
+    "main.css": "/tipdigger/static/css/main.42723d1e.css",
+    "main.js": "/tipdigger/static/js/main.6f9c57ca.js",
     "static/media/background.svg": "/tipdigger/static/media/background.95eb31c10886134c9c6a.svg",
     "static/media/SFProDisplay-Semibold.woff": "/tipdigger/static/media/SFProDisplay-Semibold.340c3a1a6dddb0b99476.woff",
     "static/media/SFProDisplay-Medium.woff": "/tipdigger/static/media/SFProDisplay-Medium.7274e74c05adf47dbcd9.woff",
@@ -40,6 +40,7 @@
     "static/media/clear.svg": "/tipdigger/static/media/clear.6a1aea7a6850ede3c20f96715a5012dc.svg",
     "static/media/offer.svg": "/tipdigger/static/media/offer.c5ccd71afdc396a9fbeb4d30e1baf31e.svg",
     "static/media/email.svg": "/tipdigger/static/media/email.e7e326e734e0bc870f78a339f356a673.svg",
+    "static/media/news.svg": "/tipdigger/static/media/news.8e1f6f4be7ef0ae9fb1542395a4785ab.svg",
     "static/media/company.svg": "/tipdigger/static/media/company.0f511b320dcd9832c382cc350a180310.svg",
     "index.html": "/tipdigger/index.html",
     "static/media/send.svg": "/tipdigger/static/media/send.9c9eb22f812481c0c7d1396f52751b7c.svg",
@@ -51,11 +52,11 @@
     "static/media/check.svg": "/tipdigger/static/media/check.71efa1f24b91f93258fe997a45aff88b.svg",
     "static/media/arrow_r.svg": "/tipdigger/static/media/arrow_r.e7a2f6308cf57a24343bbd19150327b9.svg",
     "static/media/minus.svg": "/tipdigger/static/media/minus.7e81f752d67fb6273cdd2af6ce0f43ac.svg",
-    "main.5ec26b19.css.map": "/tipdigger/static/css/main.5ec26b19.css.map",
-    "main.40043053.js.map": "/tipdigger/static/js/main.40043053.js.map"
+    "main.42723d1e.css.map": "/tipdigger/static/css/main.42723d1e.css.map",
+    "main.6f9c57ca.js.map": "/tipdigger/static/js/main.6f9c57ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ec26b19.css",
-    "static/js/main.40043053.js"
+    "static/css/main.42723d1e.css",
+    "static/js/main.6f9c57ca.js"
   ]
 }
