@@ -7,4 +7,5 @@ export * from "./RegisterPage/RegisterPage";
 export * from "./AuthPage/AuthPage";
 export * from "./MessagesPage/MessagesPage";
 export * from "./PaymentPage/PaymentPage";
+export * from "./NewsPage/NewsPage";
 

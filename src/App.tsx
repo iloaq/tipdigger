@@ -15,6 +15,7 @@ import {
   RegisterPage,
   TransactionsPage,
   WithdrawalPage,
+  NewsPage
 } from "./pages";
 import {
   chekAuth,
@@ -74,6 +75,7 @@ function App() {
             <Route path="app/payment/:id" element={<Layout showFooter={true}><PaymentPage isInside /></Layout>} />
             <Route path="/payment/:id" element={<Layout showFooter={true}><PaymentPage isInside /></Layout>} />
             <Route path="withdrawal" element={<Layout showFooter={true}><WithdrawalPage /></Layout>} />
+            <Route path="/news" element={<Layout showFooter={true}><NewsPage /></Layout>} />
             <Route
               path="messager"
               element={<Layout showFooter={false}><MessagesPage /></Layout>}

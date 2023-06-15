@@ -7,6 +7,7 @@ import { ReactComponent as QRCodeIcon } from "./icons/qr.svg";
 import { ReactComponent as WithDrawalIcon } from "./icons/withdrawal.svg";
 import { ReactComponent as ProfileIcon } from "./icons/profile.svg";
 import { ReactComponent as Messageicon } from "./icons/message.svg";
+import { ReactComponent as Newsicon } from "./icons/news.svg";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import { ThemeContext } from "../../ThemeContext"; // Импортируйте контекст темы
 
@@ -31,6 +32,11 @@ const links: IFooterLink[] = [
     title: "Messages",
     Icon: Messageicon,
     navigateTo: "/messager",
+  },
+  {
+    title: "News",
+    Icon: Newsicon,
+    navigateTo: "/news",
   },
   {
     title: "Profile",

@@ -1,8 +1,8 @@
 {
-  "name": "tippdigger",
+  "name": "tipdigger",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bektemirovkam.github.io/tippdigger",
+  "homepage": "https://iloaq.github.io/tipdigger/",
   "dependencies": {
     "@hookform/resolvers": "^2.8.8",
     "@paypal/react-paypal-js": "^7.6.0",

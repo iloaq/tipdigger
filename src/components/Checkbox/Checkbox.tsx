@@ -15,19 +15,19 @@ interface CheckboxProps
   type?: "primary" | "ghost";
 }
 
-export const Checkbox: FC<CheckboxProps> = ({
+export const Checkbox = React.forwardRef<HTMLInputElement, CheckboxProps>(({
   id,
   text,
   type = "primary",
   className,
   ...props
-}) => {
+}, ref) => {
   const theme = useContext(ThemeContext);
   const themeClass = theme === "dark" ? styles.dark : "";
 
   return (
     <div className={cn(styles.checkbox_box, className, themeClass)}>
-      <input type="checkbox" id={id} {...props} />
+      <input type="checkbox" id={id} ref={ref} {...props} />
 
       <label
         htmlFor={id}
@@ -43,4 +43,5 @@ export const Checkbox: FC<CheckboxProps> = ({
       </label>
     </div>
   );
-};
+});
+
