@@ -17,22 +17,18 @@
 
 // Определение медиа-запроса для проверки предпочтительной схемы цвета
 @media (prefers-color-scheme: light) {
-  #root {
-    background-color: $light-background-color;
-  }
   html,
   body{
     color: $main;
+    background-color: $light-background-color;
   }
 }
 
 @media (prefers-color-scheme: dark) {
-  #root {
-    background-color: $dark-background-color;
-  }
   html,
   body{
     color: #ffffff;
+    background-color: $dark-background-color;
   }
 }
 
@@ -40,7 +36,6 @@ html,
 body {
   font-family: "SFProDisplay", sans-serif;
   font-size: 16px;
-  // height: 100%;
   width: 100%;
   line-height: 1;
   -ms-text-size-adjust: 100%;
@@ -48,9 +43,9 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-// #root {
-//   height: 100%;
-// }
+#root {
+  height: 100%;
+}
 
 .js-focus-visible :focus:not(.focus-visible) {
   outline: none;
